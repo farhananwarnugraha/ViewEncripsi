@@ -1,0 +1,30 @@
+.navbar-header{
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+}
+.navbar-brand{
+	margin: 0.5px
+}
+.schoole-name{
+	color: white;
+	padding: auto;	
+	font-size: 20px;
+	font-weight: bold;
+}
+/* responsive for tablet */
+@media only screen and (min-width: 418px) and (max-width: 1024px) {
+	.navbar-header{
+		display: flex;
+		justify-items: center;
+		flex-direction: row;
+	}
+}
+
+@media screen and (max-width: 417px) {
+	.navbar-header{
+		display: flex;
+        justify-content: center;
+        float: left;
+	}
+}
